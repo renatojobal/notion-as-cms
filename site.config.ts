@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Blog Renatojobal',
-  domain: 'blognotion.renatojobal.com',
+  domain: 'blog.renatojobal.com',
   author: 'Renatojobal',
 
   // open graph metadata (optional)
