@@ -32,6 +32,7 @@ import { NotionPageHeader } from './NotionPageHeader'
 import { GitHubShareButton } from './GitHubShareButton'
 
 import styles from './styles.module.css'
+import Comments from './Comments'
 
 // -----------------------------------------------------------------------------
 // dynamic imports for optional components
@@ -287,6 +288,8 @@ export const NotionPage: React.FC<types.PageProps> = ({
       />
 
       <GitHubShareButton />
+
+      <Comments />
     </>
   )
 }
