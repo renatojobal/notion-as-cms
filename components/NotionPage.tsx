@@ -287,9 +287,11 @@ export const NotionPage: React.FC<types.PageProps> = ({
         footer={footer}
       />
 
+
+      <Comments darkMode={isDarkMode} />
+
       <GitHubShareButton />
 
-      <Comments />
     </>
   )
 }
